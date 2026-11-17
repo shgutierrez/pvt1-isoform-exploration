@@ -1,0 +1,17 @@
+# Conda
+.env
+.venv
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados grandes
+dados_brutos/gencode.v47.annotation.gtf
+dados_brutos/gencode.v47.transcripts.fa
+dados_brutos/PVT1.gtf
+# Resultados intermediários
+resultados/*.csv

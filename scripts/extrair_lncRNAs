@@ -1,0 +1,45 @@
+from Bio import SeqIO
+import pandas as pd
+from pathlib import Path
+
+genes_alvo = {
+    "MALAT1",
+    "NEAT1",
+    "HOTAIR",
+    "PVT1",
+    "XIST",
+    "GAS5"
+}
+
+arquivo = Path(
+    "/home/shgtz/linfoma_lncRNA/dados_brutos/gencode.v47.transcripts.fa"
+)
+
+resultados = []
+
+for registro in SeqIO.parse(arquivo, "fasta"):
+
+    campos = registro.description.split("|")
+
+    gene = campos[5]
+    transcrito = campos[4]
+    tamanho = int(campos[6])
+    biotipo = campos[7]
+
+    if gene in genes_alvo:
+
+        resultados.append({
+            "gene": gene,
+            "transcrito": transcrito,
+            "tamanho": tamanho,
+            "biotipo": biotipo
+        })
+
+df = pd.DataFrame(resultados)
+
+print(df)
+
+df.to_csv(
+    "/home/shgtz/linfoma_lncRNA/resultados/lncrnas_gencode.csv",
+    index=False
+)
