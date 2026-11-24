@@ -1,4 +1,26 @@
-# Next Phase
+## Cohort Selection Criteria
+
+### Statistical Considerations
+
+The primary goal of this project is not simply to detect any difference in PVT1 expression, but to identify biologically meaningful differences associated with transcript family usage and potential alternative splicing programs.
+
+Given the exploratory nature of the project, cohort selection will prioritize the detection of moderate-to-large effects rather than subtle expression changes.
+
+### Minimum Effect of Interest
+
+Changes smaller than 20% may reflect secondary or weak regulatory effects and are not considered sufficient evidence for large-scale transcriptomic reprogramming.
+
+Differences of 50% or greater are considered biologically relevant because the central hypothesis of this project involves context-dependent selection of transcript families, potentially reflecting distinct regulatory states.
+
+### Sample Size Strategy
+
+Based on the expectation of moderate-to-large biological effects:
+
+- Minimum acceptable cohort size: 20 samples
+- Preferred cohort size: 30–50 samples
+- Ideal design: Burkitt lymphoma samples and normal B-cell controls
+
+Formal power calculations will be revisited after obtaining expression variance estimates from candidate datasets.# Next Phase
 
 ## Main Objective
 
