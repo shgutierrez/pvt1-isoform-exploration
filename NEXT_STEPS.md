@@ -91,3 +91,35 @@ PVT1 functional diversity may emerge from context-dependent selection of transcr
 
 - Explore associations with disease context.
 - Evaluate potential links between transcript family usage and tumor biology.
+Note
+
+The CGCI-BLGSP project remains the most biologically relevant Burkitt lymphoma cohort identified so far. However, access restrictions may limit immediate analyses. Alternative open-access cohorts may be used for methodological development while maintaining Burkitt lymphoma as the long-term target disease model.
+
+## Strategic Project Direction
+
+### Two-Track Approach
+
+The project will follow two complementary paths:
+
+#### Open Cohort Strategy ("The Sea")
+
+Use publicly available transcriptomic datasets to:
+
+- Develop analysis workflows.
+- Explore PVT1 expression patterns across normal and malignant tissues.
+- Investigate the potential relevance of candidate transcript families in diverse biological contexts.
+- Generate and refine biological hypotheses.
+
+#### Burkitt-Focused Strategy ("The Lagoon")
+
+Maintain Burkitt lymphoma as the primary biological model.
+
+The CGCI-BLGSP cohort remains the main target cohort because of its disease specificity, large sample size, and transcriptomic resources. However, controlled-access restrictions may limit immediate analyses.
+
+Burkitt-focused analyses will serve as the primary validation stage for hypotheses generated during the exploratory phase.
+
+### Rationale
+
+The biological hypothesis is independent of any single dataset.
+
+While Burkitt lymphoma remains the central disease model, hypothesis development and methodological refinement can proceed using open-access transcriptomic resources until suitable Burkitt datasets become available.
