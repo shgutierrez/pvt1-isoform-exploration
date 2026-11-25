@@ -1,4 +1,25 @@
-## Cohort Selection Criteria
+## Target Population
+
+Primary target:
+
+- Burkitt lymphoma patient samples
+- Human origin
+- RNA-seq data available
+
+Preferred:
+
+- Primary patient samples
+- Healthy B-cell controls
+
+Acceptable:
+
+- Well-characterized Burkitt cell lines
+
+Avoid:
+
+- Mixed lymphoma cohorts without Burkitt annotation
+- Microarray-only datasets
+- Samples lacking metadata## Cohort Selection Criteria
 
 ### Statistical Considerations
 
